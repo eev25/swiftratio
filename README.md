@@ -1,6 +1,6 @@
 # swiftratio
 
-Visualize the Swift vs Objective-C file distribution in a hybrid iOS codebase as an interactive treemap.
+Easily visualize the Swift vs Objective-C file distribution in a hybrid iOS codebase as an interactive treemap.
 
 ## Examples
 
