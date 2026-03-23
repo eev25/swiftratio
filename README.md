@@ -4,8 +4,6 @@ Visualize the Swift vs Objective-C file distribution in a hybrid iOS codebase as
 
 ## Examples
 
-Interactive HTML in the [examples/](https://github.com/eev25/swiftratio/tree/main/examples) folder.
-
 ![image](https://github.com/eev25/swiftratio/blob/main/examples/vlc.png)
 ![image](https://github.com/eev25/swiftratio/blob/main/examples/wikipedia.png)
 ![image](https://github.com/eev25/swiftratio/blob/main/examples/wordpress.png)
