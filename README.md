@@ -1,29 +1,29 @@
-# swiftratio
+# swiftree
 
 Easily visualize the Swift vs Objective-C file distribution in a hybrid iOS codebase as an interactive treemap.
 
 ## Examples
 
-![image](https://github.com/eev25/swiftratio/blob/main/examples/vlc.png)
-![image](https://github.com/eev25/swiftratio/blob/main/examples/wikipedia.png)
-![image](https://github.com/eev25/swiftratio/blob/main/examples/wordpress.png)
+![image](https://github.com/eev25/swiftree/blob/main/examples/vlc.png)
+![image](https://github.com/eev25/swiftree/blob/main/examples/wikipedia.png)
+![image](https://github.com/eev25/swiftree/blob/main/examples/wordpress.png)
 
 ## Usage
 
 ```
-uv run swiftratio.py <directory>
+uv run swiftree.py <directory>
 ```
 
 **Example:**
 
 ```sh
-uv run swiftratio.py /path/to/wikipedia-ios
+uv run swiftree.py /path/to/wikipedia-ios
 # → Saves migration_progress.html and opens it in the default browser
 ```
 
 ## Overview
 
-`swiftratio` recursively scans a directory, counts `.swift` and Objective-C (`.h`, `.m`) files per folder, and renders an interactive [Plotly Treemap](https://plotly.com/python/treemaps/) saved to `migration_progress.html`.
+`swiftree` recursively scans a directory, counts `.swift` and Objective-C (`.h`, `.m`) files per folder, and renders an interactive [Plotly Treemap](https://plotly.com/python/treemaps/) saved to `migration_progress.html`.
 
 **Color encoding:**
 - Blue — Swift-heavy (migration complete)

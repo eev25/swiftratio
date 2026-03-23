@@ -6,7 +6,7 @@
 # ///
 
 """
-swiftratio - Visualize Swift vs Objective-C distribution in a hybrid iOS codebase.
+swiftree - Visualize Swift vs Objective-C distribution in a hybrid iOS codebase.
 
 Generates a Plotly Treemap saved to migration_progress.html showing the ratio
 of Swift to Objective-C files per directory. Red = ObjC-heavy, Blue = Swift-heavy.
@@ -154,7 +154,7 @@ def build_treemap(root: Path) -> go.Figure:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        prog="swiftratio",
+        prog="swiftree",
         description=(
             "Visualize the Swift vs Objective-C file distribution in a hybrid iOS "
             "codebase as an interactive Treemap. "
